@@ -1,6 +1,6 @@
 'use strict';
 
-function fizbuzzwhizz(a, b, c){
+function fizbuzzwhizz(a, b, c, n){
     if((n.toString().indexOf(a.toString()))>-1){
         return 'Fizz';
     }else if(n%a==0&&n%b==0&&n%c==0){
